@@ -69,7 +69,6 @@ def send_control(steering_angle, throttle):
 
 
 if __name__ == '__main__':
-    print("boh qui ci sono")
     parser = argparse.ArgumentParser(description='Remote Driving')
     parser.add_argument('--model', type=str,
     help='Path to model definition json')
